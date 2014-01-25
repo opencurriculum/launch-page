@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>OpenCurriculum Launch</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script type="text/javascript" src="//use.typekit.net/rwv7wvc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="scripts/wufoo.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <div id="header">
+      <div class="navigation">
+        <div class="logo">
+          OpenCurriculum
+        </div>
+        <div class="nav">
+
+        </div>
+      </div>
+      <div class="header-pitch">
+        <h1>Curriculum management made simple.</h1>
+        <p>OpenCurriculum is the best way to create and manage K-12 curriculum content.</p>
+      </div>
+      <a class="header-button" href="#features">
+        Learn More
+      </a>
+      <img class="header-img" alt="OpenCurriculum Screenshot" src="images/header-screenshot.png">
+
+    </div>
+    <div id="features">
+      <div class="container">
+        <h2 class="section-header">We've built a platform designed for curriculum creators.</h2>
+
+        <div class="feature-block row">
+          <div class="col-md-4 col-md-offset-1">
+            <h3>Focus on what matters.</h3>
+            <p>Our tools give you a seamless workflow and help you save time for what actually matters: building the best curriculum content possible.</p>
+          </div>
+          <div class="col-md-4 col-md-offset-1">
+            <img class="feature-block-image" alt="OpenCurriculum Feature 1" src="images/oc-1.png">
+          </div>
+        </div>
+
+        <div class="feature-block row">
+          <div class="col-md-4 col-md-offset-1 col-md-push-5">
+            <h3>Throw away the USB sticks.</h3>
+            <p>Built-in commenting and peer review features allow better collaboration and tighter, quicker feedback loops with teachers and stakeholders.</p>
+          </div>
+          <div class="col-md-4 col-md-offset-1 col-md-pull-5">
+            <img class="feature-block-image" alt="OpenCurriculum Feature 2" src="images/oc-2.png">
+          </div>
+        </div>
+
+        <div class="feature-block row">
+          <div class="col-md-4 col-md-offset-1">
+            <h3>More flexible than an Olympic gymnast.</h3>
+            <p>Forget Word. Easily track changes, reference other files and resources, and tag resources for standards alignment.</p>
+          </div>
+          <div class="col-md-4 col-md-offset-1">
+            <img class="feature-block-image" alt="OpenCurriculum Feature 3" src="images/oc-3.png">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <h2 class="section-header">Ready to change the way you create curriculum? Contact us.</h2>
+
+        <div class="">
+          <form id="form1 contact-form" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://opencurriculum.wufoo.com/forms/z95q1wv082fe4x/#public">
+
+            <ul class="form-fields">
+              <li id="foli1" class="notranslate">
+                <label class="desc" id="title1" for="Field1">
+                  What is your name?
+                  <span id="req_1" class="req">*</span>
+                </label>
+                <div>
+                <span>
+                  <input id="Field1" name="Field1" type="text" class="field text fn half-input" placeholder="First" value="" size="8" tabindex="1" required />
+                </span>
+                <span>
+                  <input id="Field2" name="Field2" type="text" class="field text ln half-input right" placeholder="Last" value="" size="14" tabindex="2" required />
+                </span>
+                </div>
+              </li>
+              <li id="foli3" class="notranslate      ">
+                  <label class="desc" id="title3" for="Field3">
+                  What is your email?
+                  <span id="req_3" class="req">*</span>
+                  </label>
+                <div>
+                  <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" required />
+                </div>
+              </li>
+              <li id="foli4" class="notranslate      ">
+                <label class="desc" id="title4" for="Field4">
+                  Which school district do you work for?
+                </label>
+                <div>
+                  <input id="Field4" name="Field4" type="text" class="field text medium" value="" maxlength="255" tabindex="4" onkeyup="" />
+                </div>
+              </li>
+
+              <li class="buttons">
+                <div><input id="saveForm" name="saveForm" class="btTxt submit"
+                type="submit" value="Submit"/></div>
+              </li>
+
+              <li class="hide">
+              <label for="comment">Do Not Fill This Out</label>
+              <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+              <input type="hidden" id="idstamp" name="idstamp" value="aWeSD8jf1RNIIyhukMhhF30DlieT32UtqSEKYAFay0c=" />
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div> <!--container-->
+    </div>
+
+    <!-- js crap -->
+    <script type="text/javascript">
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
