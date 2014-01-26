@@ -50,6 +50,10 @@ img {
   color: #BDD9C3;
 }
 
+.header-img-container {
+  overflow: hidden;
+}
+
 .header-img {
   display: block;
   margin: 0 auto;
